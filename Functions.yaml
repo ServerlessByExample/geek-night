@@ -4,3 +4,9 @@
   name: cat
   type: code
   path: ./ruby/cat.rb
+- url: /dog
+  method: GET
+  env: node
+  name: dog
+  type: code
+  path: ./node/dog.js

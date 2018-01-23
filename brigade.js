@@ -20,7 +20,6 @@ const deploy = async () => {
 };
 
 const run = async () => {
-  await Promise.all([runGo(), runNode()]);
   await deploy();
 };
 
