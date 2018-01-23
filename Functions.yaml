@@ -1,0 +1,6 @@
+- url: /cat
+  method: GET
+  env: ruby
+  name: cat
+  type: code
+  path: ./ruby/cat.rb
